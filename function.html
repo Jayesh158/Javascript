@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+<h1>Javascript is love</h1>
+    <script>
+        function areaofcircle(radius){
+            const area = 3.14 * radius * radius
+            return area;
+        }
+        const circle = areaofcircle(5)
+        console.log(`Area of circle is : ${circle}`);
+        
+
+        function areaofsquare(side){
+            const area = side * side
+            console.log(`Area of square is : ${area}`);
+        }
+        areaofsquare(10);
+
+        const length = 6
+        const breadth = 5
+        function areaofrectangle(){
+            const area = length * breadth
+            return area;
+        }
+        const reactangle = areaofrectangle();
+        console.log(`Area of reactangle is : ${reactangle}`);
+
+        const base = 10
+        const height = 8
+        function areaoftriangle(){
+            const area2 = (base * height)/2
+            console.log(`Area of triangle is : ${area2}`)
+        }
+        areaoftriangle()
+
+    </script>
+</body>
+</html>
