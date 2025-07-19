@@ -12,3 +12,4 @@ console.log(age)
 City = "Mumbai"
 console.log(City)   /* 'It is the worst way to declare a variable in javascript, as it creates a global variable
                      without using var, let, or const. This can lead to unexpected behavior and bugs in the code.*/ 
+                    // console.table() is used to display data in a table format in the console
