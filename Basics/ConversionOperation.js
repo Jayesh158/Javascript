@@ -1,16 +1,16 @@
 let age = "25" 
-console.log(typeof age);
+// console.log(typeof age);
 let convertedAge = Number(age); // Convert string to number
-console.log(typeof convertedAge); 
+// console.log(typeof convertedAge); 
 
 let name = 123
-console.log(typeof name)
+// console.log(typeof name)
 let convertName = String(name) // Convert number to string
-console.log(typeof convertName)
+// console.log(typeof convertName)
 
 let isStudent = 1
 let convertedIsStudent = Boolean(isStudent) // Convert number to boolean
-console.log(typeof convertedIsStudent); 
+// console.log(typeof convertedIsStudent); 
 
 /*
 "123abc" => it shows NaN after converting in number
@@ -19,3 +19,11 @@ console.log(typeof convertedIsStudent);
 "true" => it shows 1 after converting in number 
 "undefined" => it shows NaN after converting in number
 */
+
+console.log(1 + "4") // String concatenation due to the presence of a string
+console.log("1" + 4) 
+console.log("1" + "4") 
+console.log(1 + 4) // Addition of two numbers
+console.log(1 + 4 + "5") 
+console.log("1" + 4 + 5)
+console.log(1 + "4" + 5)
