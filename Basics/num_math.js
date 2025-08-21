@@ -33,4 +33,3 @@ console.log(Math.random()); // Generate a random number between 0 and 1
 
 console.log(Math.floor((Math.random(1)*6) + 1)); 
 
-
